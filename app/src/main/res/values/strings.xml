@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Motion Layout</string>
+    <string name="kdf_df_kd">kdf df kd</string>
+    <string name="large_text">This library is an early release (alpha 2), and may change before the final stable release. During the alpha release cycle specifically, changes in API / naming are more likely, in reaction to user feedback.Please report any bugs or feature requests on the issue tracker, under the ConstraintLayout component </string>
+</resources>

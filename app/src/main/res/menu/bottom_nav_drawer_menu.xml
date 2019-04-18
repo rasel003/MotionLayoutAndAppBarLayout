@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group
+        android:checkableBehavior="none"
+        app:title="group one">
+        <item
+            android:id="@+id/nav1"
+            android:icon="@drawable/ic_favorite"
+            android:title="Favorite" />
+        <item
+            android:id="@+id/nav2"
+            android:icon="@drawable/ic_search"
+            android:title="Search" />
+        <item
+            android:id="@+id/nav3"
+            android:icon="@drawable/ic_search"
+            android:title="Add" />
+
+        <item
+            android:id="@+id/app_bar_group"
+            android:icon="@drawable/ic_search"
+            android:title="group" />
+        <item
+            android:id="@+id/app_bar_Account"
+            android:icon="@drawable/ic_favorite"
+            android:title="Account" />
+        <item
+            android:id="@+id/app_bar_Profile"
+            android:icon="@drawable/ic_search"
+            android:title="Profile" />
+        <item
+            android:id="@+id/app_bar_settings"
+            android:icon="@drawable/ic_favorite"
+            android:title="Setting" />
+    </group>
+
+    <group
+        android:checkableBehavior="none"
+        app:title="group one">
+        <item
+            android:id="@+id/nav10"
+            android:icon="@drawable/ic_favorite"
+            android:title="Favorite" />
+        <item
+            android:id="@+id/nav20"
+            android:icon="@drawable/ic_search"
+            android:title="Search" />
+        <item
+            android:id="@+id/nav30"
+            android:icon="@drawable/ic_search"
+            android:title="Add" />
+
+        <item
+            android:id="@+id/app_bar_group0"
+            android:icon="@drawable/ic_search"
+            android:title="group" />
+        <item
+            android:id="@+id/app_bar_Account0"
+            android:icon="@drawable/ic_favorite"
+            android:title="Account" />
+        <item
+            android:id="@+id/app_bar_Profile0"
+            android:icon="@drawable/ic_search"
+            android:title="Profile" />
+        <item
+            android:id="@+id/app_bar_settings0"
+            android:icon="@drawable/ic_favorite"
+            android:title="Setting" />
+    </group>
+    <group
+        android:checkableBehavior="none"
+        app:title="group one">
+        <item
+            android:id="@+id/nav12"
+            android:icon="@drawable/ic_favorite"
+            android:title="Favorite" />
+        <item
+            android:id="@+id/nav22"
+            android:icon="@drawable/ic_search"
+            android:title="Search" />
+        <item
+            android:id="@+id/nav32"
+            android:icon="@drawable/ic_search"
+            android:title="Add" />
+
+        <item
+            android:id="@+id/app_bar_group2"
+            android:icon="@drawable/ic_search"
+            android:title="group" />
+        <item
+            android:id="@+id/app_bar_Account2"
+            android:icon="@drawable/ic_favorite"
+            android:title="Account" />
+        <item
+            android:id="@+id/app_bar_Profile2"
+            android:icon="@drawable/ic_search"
+            android:title="Profile" />
+        <item
+            android:id="@+id/app_bar_settings2"
+            android:icon="@drawable/ic_favorite"
+            android:title="Setting" />
+    </group>
+</menu>
