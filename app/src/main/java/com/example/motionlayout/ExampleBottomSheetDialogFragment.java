@@ -42,8 +42,7 @@ public class ExampleBottomSheetDialogFragment extends BottomSheetDialogFragment 
         try {
             mListener = (BottomSheetListener) context;
         } catch (ClassCastException e) {
-            throw new ClassCastException(context.toString()
-                    + " must implement BottomSheetListener");
+            throw new ClassCastException(context.toString() + " must implement BottomSheetListener to handle click listener");
         }
     }
 }

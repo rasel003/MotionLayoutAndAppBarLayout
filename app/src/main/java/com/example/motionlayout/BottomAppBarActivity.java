@@ -1,16 +1,14 @@
 package com.example.motionlayout;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
-
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.Toast;
 
 import com.google.android.material.bottomappbar.BottomAppBar;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class BottomAppBarActivity extends AppCompatActivity implements ExampleBottomSheetDialogFragment.BottomSheetListener{
 
@@ -53,7 +51,6 @@ public class BottomAppBarActivity extends AppCompatActivity implements ExampleBo
                 return super.onContextItemSelected(item);
         }
     }
-
     @Override
     public void onButtonClicked(String text) {
         if("Button close clicked".equals(text)){
