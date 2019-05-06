@@ -1,4 +1,4 @@
-package com.example.motionlayout;
+package com.example.motionlayout.bottom_app_bar;
 
 import android.os.Bundle;
 import android.view.Menu;
@@ -6,11 +6,12 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import com.example.motionlayout.R;
 import com.google.android.material.bottomappbar.BottomAppBar;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class BottomAppBarActivity extends AppCompatActivity implements ExampleBottomSheetDialogFragment.BottomSheetListener{
+public class BottomAppBarActivity extends AppCompatActivity implements ExampleBottomSheetDialogFragment.BottomSheetListener {
 
     private  ExampleBottomSheetDialogFragment bottomNavDrawerFragment;
 
